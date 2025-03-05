@@ -11,7 +11,7 @@ public class Main {
         Database db = new Database();
         db.loadBooksTable();
         db.loadAuthorsTable();
-        /*
+        /**
         1.Authors
         2.Books
         3.exit
