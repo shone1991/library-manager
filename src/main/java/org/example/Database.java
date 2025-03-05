@@ -42,7 +42,7 @@ public class Database {
     public void loadBooksTable() {
         File file = new File(BOOKS_TABLE);
         if (!file.exists()) {
-            System.out.println("No existing data found for books, starting fresh.");
+            System.out.println("No existing data found for books table, starting fresh.");
             return;
         }
 
